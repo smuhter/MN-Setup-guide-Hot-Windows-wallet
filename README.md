@@ -10,17 +10,17 @@ MASTERNODE GUIDE FOR WINDOWS
 7.In the Console Debug window enter "masternode outputs" and copy the result. "txhash" is your YOURTXID. "outputidx" is YOUROUTPUTIDX
 8.Open Configuration File in Notepad. This config file is located at C:/users/***Your windows username***/appdata(hidden)/roaming/trittium (or custom path, that you choice when first install wallet)   Then paste in the following.
 
-rpcuser=YOURUSERNAME 
-rpcpassword=YOURPASSWORD
-rpcallowip=127.0.0.1
-rpcport=30002
-port=30001
-server=1
-listen=1
-daemon=1
-masternode=1
-masternodeaddr=YOUR_PUBLIC_IP:30001
-masternodeprivkey=MASTERNODEPRIVKEY
+rpcuser=YOURUSERNAME <br />
+rpcpassword=YOURPASSWORD <br />
+rpcallowip=127.0.0.1 <br />
+rpcport=30002 <br />
+port=30001 <br />
+server=1 <br />
+listen=1 <br />
+daemon=1 <br />
+masternode=1 <br />
+masternodeaddr=YOUR_PUBLIC_IP:30001 <br />
+masternodeprivkey=MASTERNODEPRIVKEY <br />
 
 9.Now save and close the config file. 
 10. Open Masternode.conf. This config file is located at C:/users/***Your windows username***/appdata(hidden)/roaming/trittium/masternode.conf  Then paste in the following.
